@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Triod;
+	src: url(TriodPostnaja.ttf);
+}
+
+html
+{
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+h1
+{
+	/* font: 20px Triod;	 */
+	text-align: left;
+	color: rgba(201, 74, 42, 0.74);
+	margin: 0;
+	width: 53%;
+	position: absolute;
+	bottom: 97%;
+	left: 0.5%;
+	text-shadow:
+	-1px 0px 0 #000,
+	0px -1px 0 #000,
+	0px 1px 0 #000,
+	1px 0px 0 #000;
+}
+
+h2
+{
+	font: 30px Triod;	
+	text-align: left;
+	/* color: #778a99; */
+	/* color: #ba9; */
+	color: rgba(255, 255, 255, 0.75);
+	margin: 0;
+	width: 53%;
+	position: absolute;
+	bottom: 1%;
+	left: 0.5%;
+	text-shadow:
+	-1px 0px 0 #000,
+	0px -1px 0 #000,
+	0px 1px 0 #000,
+	1px 0px 0 #000;
+}
